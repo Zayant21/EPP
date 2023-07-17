@@ -55,3 +55,18 @@ public:
 		}
 }
 };
+
+
+
+int main() {
+    Enrollment enrollment;
+
+    // Add some students
+    enrollment.addUndergraduate("John", "Doe");
+    enrollment.addGraduate("Jane", "Smith");
+
+    // Print the list of students in order
+    enrollment.printInOrder();
+
+    return 0;
+}
